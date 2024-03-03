@@ -73,7 +73,7 @@ textarea {
   z-index: 10;
   width: 50px;
   bottom: 20px;
-  right: 10px;
+  right: 30px;
   transition: var(--animation-transition);
 }
 
