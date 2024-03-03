@@ -411,5 +411,6 @@ textarea {
 }
 
 .social-list-item:hover {
-  background-color: var(--c-accent);
+transform: scale(1.2);
+  /* background-color: var(--c-accent); */
 }
