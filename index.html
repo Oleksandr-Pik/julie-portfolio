@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julie Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <!-- HEADER ------------------------------------------------------ -->
+    <header class="header" id="home">
+      <div class="container header-wrapper">
+        <a class="logo-link" href="./index.html"
+          ><img src="./src/images/Logo.svg" alt="site logo" class="logo-img"
+        /></a>
+        <nav class="navigation">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#about" class="nav-link">Обо мне</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#portfolio" class="nav-link">Портфолио</a>
+            </li>
+            <li class="nav-list-item"><a href="#prices" class="nav-link">Цены</a></li>
+            <li class="nav-list-item">
+              <a href="#sing-up" class="nav-link">Записаться</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="contact-phone" href="tel:+380961195404"
+          >+380 (96) 119 54 04</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO ------------------------------------------------------ -->
+      <section class="hero section">
+        <div class="container">
+          <div class="hero-wrapper">
+            <h1 class="hero-title">Юлия Тюлькина</h1>
+            <div class="hero-profession-wrapper">
+              <p class="hero-profession">фотограф / видеооператор</p>
+              <a class="hero-btn btn" href="#">Записаться на фотоссесию</a>
+            </div>
+          </div>
+          <img src="./src/images/julie.jpg" alt="Julie photo" />
+        </div>
+      </section>
+
+      <!-- ABOUT ----------------------------------------------------- -->
+      <section class="section about" id="about">
+        <div class="container">
+          <h2 class="title">Обо мне</h2>
+          <div class="about-wrapper">
+
+            <div class="about-photo-wrapper">
+              <div class="about-photo-shadow">
+                <img
+                class="about-photo-img"
+                src="./src/images/julie-2.jpg"
+                alt="Julie photo_2"
+              />
+              <h3 class="about-photo-title">Юлия Тюлькина</h3>
+              </div>
+            </div>
+
+            <div class="about-descr-wrapper">
+              <h3 class="about-descr-title">
+                Привет! Меня зовут Юля, я фотограф из Винницы
+              </h3>
+              <p class="about-descr-text-first">
+                Занимаюсь фотографией более 2 лет. Люблю живые, естественные,
+                теплые и эмоциональные кадры. Умею работать<br />с такими
+                инструментами как Photoshop, Lightroom.
+              </p>
+              <p class="about-descr-text-second">
+                Фотография для меня - это способ показать прекрасное в
+                простоте,<br />то есть открыть занавес изящного и ненавязчивого.
+                Видеосъёмка является чем-то по особенному ценным, ведь можно
+                запечатлеть момент навсегда и при этом оставить отпечаток в
+                истории.
+              </p>
+              <div class="about-descr-img-wrap">
+                <img
+                  src="./src/images/julie-3.jpg"
+                  alt="Julie photo_3"
+                  class="about-descr-photo"
+                />
+              </div>
+            </div>
+          </div>
+          <a href="#home"><img src="./src/images/up-arrow.svg" alt="up-arrow" class="up-arrow"></a>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO ------------------------------------------------ -->
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+          <h2 class="title">Портфолио</h2>
+          
+          <ul class="portfolio-list">
+            <li class="portfolio-list-item">
+              <img
+                src="./src/images/portfolio-img-1.jpg"
+                alt="portfolio img_1"
+                class="portfolio-item-img"
+              />
+              <h3 class="portfolio-item-title">Теплые фото у дома</h3>
+              <p class="portfolio-item-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <buttot class="btn">Все фото</buttot>
+            </li>
+
+            <li class="portfolio-list-item">
+              <img
+                src="./src/images/portfolio-img-2.jpg"
+                alt="portfolio img_2"
+                class="portfolio-item-img"
+              />
+              <h3 class="portfolio-item-title">Утреняя видеосьемка</h3>
+              <p class="portfolio-item-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                sagittis, natoque amet at hendrerit consectetur rhoncus.
+              </p>
+              <buttot class="btn">Все фото</buttot>
+            </li>
+
+            <li class="portfolio-list-item">
+              <img
+                src="./src/images/portfolio-img-3.jpg"
+                alt="portfolio img_3"
+                class="portfolio-item-img"
+              />
+              <h3 class="portfolio-item-title">Фотосессия с цветами</h3>
+              <p class="portfolio-item-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                sagittis, natoque amet.
+              </p>
+              <buttot class="btn">Все фото</buttot>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PRICES --------------------------------------------------- -->
+      <section class="section prices" id="prices">
+        <div class="container">
+          <h2 class="title">Цены</h2>
+          <ul class="prices-list">
+            <li class="prices-list-item">
+              <img src="./src/images/photoshoot.jpg" alt="photoshoot" class="prices-list-item-img" />
+              <h3 class="prices-list-item-title">Фотосессия</h3>
+
+              <ul class="prices-list-descr">
+                <li class="prices-list-descr-list">
+                  <p class="prices-list-descr-item-left">Продолжительность</p>
+                  <p class="prices-list-descr-item-right">1 час</p>
+                </li>
+                <li class="prices-list-descr-list">
+                  <p class="prices-list-descr-item-left">
+                    Время обработки фото
+                  </p>
+                  <p class="prices-list-descr-item-right">5 дней</p>
+                </li>
+                <li class="prices-list-descr-list">
+                  <p class="prices-list-descr-item-left">Количество фото</p>
+                  <p class="prices-list-descr-item-right">20 штук</p>
+                </li>
+              </ul>
+
+              <div class="prices-list-wrapp">
+                <p class="prices-list-price">200 грн</p>
+                <button class="btn">Заказать сейчас</button>
+              </div>
+            </li>
+
+            <li class="prices-list-item">
+              <img src="./src/images/video-shooting.jpg" alt="video shooting" class="prices-list-item-img" />
+              <h3 class="prices-list-item-title">Видеосъемка</h3>
+
+              <ul class="prices-list-descr">
+                <li class="prices-list-descr-list">
+                  <p class="prices-list-descr-item-left">Продолжительность</p>
+                  <p class="prices-list-descr-item-right">1 час</p>
+                </li>
+                <li class="prices-list-descr-list">
+                  <p class="prices-list-descr-item-left">
+                    Время обработки фото
+                  </p>
+                  <p class="prices-list-descr-item-right">5 дней</p>
+                </li>
+                <li class="prices-list-descr-list">
+                  <p class="prices-list-descr-item-left">Количество фото</p>
+                  <p class="prices-list-descr-item-right">20 штук</p>
+                </li>
+              </ul>
+
+              <div class="prices-list-wrapp">
+                <p class="prices-list-price">300 грн</p>
+                <button class="btn">Заказать сейчас</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- SING UP --------------------------------------------------- -->
+      <section class="sing-up" id="sing-up">
+        <div class="container">
+          <h2 class="title">Записаться к Юле</h2>
+          <div class="sing-up-wrapper">
+            <div class="sing-up-photos">
+              <img class="sing-up-photos-img1" src="./src/images/sing-up-1.jpg" alt="Julie photo-1" />
+              <img class="sing-up-photos-img2" src="./src/images/sing-up-2.jpg" alt="Julie photo-2" />
+            </div>
+            <form class="sing-up-form">
+              <input type="text" id="name" placeholder="Имя ..." />
+              <input type="email" id="email" placeholder="E-mail ..." />
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Сообщение ..."
+              ></textarea>
+              <button class="btn submit-btn" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER --------------------------------------------------- -->
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <a class="logo-link" href="./index.html"
+          ><img src="./src/images/Logo.svg" alt="site logo" class="logo-img"
+        /></a>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="#" class="social-link"
+              ><img
+                class="social-icon"
+                src="./src/images/instagram.svg"
+                alt="instagram icon"
+            /></a>
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social-link"
+              ><img
+                class="social-icon"
+                src="./src/images/facebook.svg"
+                alt="facebook icon"
+            /></a>
+          </li>
+          <li class="social-list-item">
+            <a href="#" class="social-link"
+              ><img
+                class="social-icon"
+                src="./src/images/email.svg"
+                alt="email icon"
+            /></a>
+          </li>
+        </ul>
+        <a class="contact-phone" href="tel:+380961195404"
+          >+380 (96) 119 54 04</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
