@@ -414,3 +414,7 @@ textarea {
 transform: scale(1.2);
   /* background-color: var(--c-accent); */
 }
+
+.footer .contact-phone {
+  font-weight: 600;
+}
