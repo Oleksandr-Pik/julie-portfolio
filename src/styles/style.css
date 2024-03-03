@@ -23,6 +23,7 @@ body {
   letter-spacing: 0.05em;
   color: var(--c-txt-primary)
 }
+
 textarea {
   resize: none;
 }
@@ -335,6 +336,7 @@ textarea {
 .sing-up {
   margin-bottom: 100px;
 }
+
 .sing-up .title {
   margin-bottom: 50px;
 }
@@ -348,9 +350,10 @@ textarea {
   position: relative;
   width: calc(100%/12 * 7);
 }
+
 .sing-up-photos-img1 {
-position: absolute;
-top: 47px;
+  position: absolute;
+  top: 47px;
 }
 
 .sing-up-photos-img2 {
@@ -365,16 +368,15 @@ top: 47px;
   gap: 40px;
 }
 
-.sing-up-form input, 
+.sing-up-form input,
 .sing-up-form textarea {
   padding: 18px 20px;
   transition: var(--animation-transition);
 }
 
-.sing-up-form input:focus, 
+.sing-up-form input:focus,
 .sing-up-form textarea:focus {
   outline: 1px solid var(--c-accent);
-  /* border: 1px solid var(--c-accent); */
 }
 
 /* FOOTER ---------------- */
@@ -411,5 +413,3 @@ top: 47px;
 .social-list-item:hover {
   background-color: var(--c-accent);
 }
-
-
